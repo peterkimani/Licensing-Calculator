@@ -77,7 +77,7 @@ licensingcalculator<-function(x,y)
   
   
   #######PART 4: WORKING ON THE OUTPUT###############
-  #since the solution is looking for the number of cars sold between the two numberplates 
+  #cars sold between number plate 1 and number plate 2 
   final.boughtcars<-boughtcars-1
   ffinal.boughtcars<-paste("The number of cars bought are",final.boughtcars,"between number plate",x,"and",y)
   readline("NOTE 1 out of 3:
